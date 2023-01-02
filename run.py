@@ -36,7 +36,7 @@ logo= f'''
 Y88888P YP   YD Y888888P VP   V8P  Y888P
 {50*"-"}
     Tool Version :     1.0
-    Tools owner  :      ELYAS
+    Tools owner  :     ELYAS
 {50*"-"}'''
 
 #--(Dark@Colours)---#
@@ -72,7 +72,7 @@ plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].u
 xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
 bxd = ""
 bumper = id+bxd+xp
-myweb2 = requests.get("https://raw.githubusercontent.com/MR-ELYAS/approve/main/key.txt").text
+myweb2 = requests.get("https://raw.githubusercontent.com/MR-ELYAS/test/main/public.txt").text
 
 def qsbuy():
 	try:
